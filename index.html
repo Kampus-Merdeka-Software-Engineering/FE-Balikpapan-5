@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My E-commerce Store</title>
+    <link rel="stylesheet" href="./src/style/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <div class="logo">
+            <a href="/index.html">
+              <img src="./src/images/home/logo.svg" alt="logo" />
+            </a>
+          </div>
+          <div class="right">
+            <div class="nav">
+              <ul class="nav-links">
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Features</a></li>
+                <li>
+                  <a href="./src/components/about/about.html">About Us</a>
+                </li>
+                <li>
+                  <a href="#">Service</a>
+                </li>
+              </ul>
+            </div>
+            <div class="search-bar">
+              <input
+                type="text"
+                placeholder="Search Something"
+                class="search-input"
+              />
+            </div>
+
+            <!-- Add this code where you want to place the login and signup links -->
+            <div class="user-actions">
+              <img
+                class="person"
+                src="./src/images/home/person.svg"
+                alt="person"
+              />
+              <a class="signin" href="./src/components/login/login.html"
+                >Log In</a
+              >
+              <a class="signup" href="./src/components/signup/signup.html"
+                >Sign Up</a
+              >
+            </div>
+            <!-- Add this code where you want to place the cart link -->
+            <div class="cart">
+              <a href="./src/components/shipping/shipping.html">
+                <img src="./src/images/home/cart.svg" alt="Cart" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="main-overlay">
+        <h3>The Bag for Summer</h3>
+        <h1>MODERN DESIGN TRENDS</h1>
+        <button>More View Collection</button>
+        <!-- Add homepage content here -->
+      </div>
+    </main>
+    <section>
+      <div class="section-home">
+        <div class="category-left">
+          <h1 class="title-item">Categories Item</h1>
+          <ul class="list-category">
+            <div class="filter">
+              <h4>Filter by:</h4>
+              <h5>Clear</h5>
+            </div>
+            <li>
+              <input type="checkbox" id="handbags" /><label for="handbags"
+                >Hanbags</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="women" /><label for="women"
+                >Women</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="men" /><label for="men">Men</label>
+            </li>
+            <li>
+              <input type="checkbox" id="children" /><label for="children"
+                >Children</label
+              >
+            </li>
+            <li>Recomendation <span class="plus">+</span></li>
+            <li>
+              Hot Trends
+              <span class="plus">+</span>
+            </li>
+          </ul>
+        </div>
+        <div class="product-items-container">
+          <div class="product">
+            <div class="dropdown">
+              <button class="dropdown-button">
+                Sort by: <span>Newest</span> <span class="drop">></span>
+              </button>
+            </div>
+            <div class="product-items-container">
+              <div class="product-item">
+                <div class="product-image">
+                  <img src="./src/images/home/bag-1.png" alt="" srcset="" />
+                </div>
+                <p>$1,650</p>
+                <h4>Blondie Pink Small Leather Bag</h4>
+                <button class="button-product">Add To Shopping bag</button>
+              </div>
+              <div class="product-item">
+                <div class="product-image">
+                  <img src="./src/images/home/bag-2.png" alt="" srcset="" />
+                </div>
+                <p>$2,250</p>
+                <h4>Beige Leather Bag Isolated</h4>
+                <button class="button-product">Add To Shopping bag</button>
+              </div>
+              <div class="product-item">
+                <div class="product-image">
+                  <img src="./src/images/home/bag-3.png" alt="" srcset="" />
+                </div>
+                <p>$1,250</p>
+                <h4>Handbag Women Clucth Gray</h4>
+                <button class="button-product">Add To Shopping bag</button>
+              </div>
+            </div>
+            <div class="product-items-container">
+              <div class="product-item">
+                <div class="product-image">
+                  <img src="./src/images/home/bag-1.png" alt="" srcset="" />
+                </div>
+                <p>$1,650</p>
+                <h4>Blondie Pink Small Leather Bag</h4>
+                <button class="button-product">Add To Shopping bag</button>
+              </div>
+              <div class="product-item">
+                <div class="product-image">
+                  <img src="./src/images/home/bag-2.png" alt="" srcset="" />
+                </div>
+                <p>$2,250</p>
+                <h4>Beige Leather Bag Isolated</h4>
+                <button class="button-product">Add To Shopping bag</button>
+              </div>
+              <div class="product-item">
+                <div class="product-image">
+                  <img src="./src/images/home/bag-3.png" alt="" srcset="" />
+                </div>
+                <p>$1,250</p>
+                <h4>Handbag Women Clucth Gray</h4>
+                <button class="button-product">Add To Shopping bag</button>
+              </div>
+            </div>
+            <div class="product-items-container">
+              <div class="product-item">
+                <div class="product-image">
+                  <img src="./src/images/home/bag-1.png" alt="" srcset="" />
+                </div>
+                <p>$1,650</p>
+                <h4>Blondie Pink Small Leather Bag</h4>
+                <button class="button-product">Add To Shopping bag</button>
+              </div>
+              <div class="product-item">
+                <div class="product-image">
+                  <img src="./src/images/home/bag-2.png" alt="" srcset="" />
+                </div>
+                <p>$2,250</p>
+                <h4>Beige Leather Bag Isolated</h4>
+                <button class="button-product">Add To Shopping bag</button>
+              </div>
+              <div class="product-item">
+                <div class="product-image">
+                  <img src="./src/images/home/bag-3.png" alt="" srcset="" />
+                </div>
+                <p>$1,250</p>
+                <h4>Handbag Women Clucth Gray</h4>
+                <button class="button-product">Add To Shopping bag</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <!-- Footer content -->
+    </footer>
+    <script src="./src/script/scripts.js"></script>
+  </body>
+</html>

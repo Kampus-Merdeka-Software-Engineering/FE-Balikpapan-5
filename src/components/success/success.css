@@ -1,0 +1,92 @@
+/* Set the default font family for the entire document */
+:root {
+  --poppins: "Poppins", sans-serif;
+  --backslash: "Backslash", sans-serif;
+}
+
+html {
+  font-family: var(--poppins);
+}
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /* min-height: 100vh Ini akan memastikan card berada di tengah vertikal di */
+  /* seluruh tinggi viewport; */
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  max-width: 40%;
+  margin: auto;
+  padding: 50px;
+}
+
+/* Sisipkan aturan CSS lainnya yang Anda miliki di sini */
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0px;
+  justify-content: center;
+}
+
+.payment-details .sub-title {
+  font-weight: 600;
+}
+
+.properties {
+  display: flex; /* Menggunakan flexbox */
+  justify-content: space-between; /* Mengatur jarak "space between" */
+  align-items: center; /* Memusatkan secara vertikal */
+  margin-top: -20px;
+}
+
+.focus {
+  font-weight: 600;
+}
+
+.description {
+  margin-top: -5px;
+}
+
+.title1 {
+  font-size: 36px;
+  margin-top: -2px;
+  margin-bottom: 50px;
+}
+
+.title {
+  margin-top: 50px;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+/* Reset default button styles */
+a {
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Tombol kustom dengan teks di tengah dan latar belakang berwarna #1450A3 */
+.custom-button {
+  font-weight: 600;
+  margin-top: 50px;
+  display: inline-block;
+  padding: 10px 20px; /* Atur padding sesuai kebutuhan */
+  background-color: #1450a3;
+  color: white;
+  font-size: 16px; /* Atur ukuran font sesuai kebutuhan */
+  text-align: center;
+  width: 100%;
+  height: 61px;
+  border-radius: 4px; /* Atur sudut tombol sesuai kebutuhan */
+}
