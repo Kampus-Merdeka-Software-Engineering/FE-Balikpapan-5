@@ -1,0 +1,215 @@
+html {
+  background-color: #fbf6f6;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between; /* Space evenly between the two sections */
+}
+
+/* Styles for shipping form */
+.form-ship {
+  width: 629px;
+  margin-left: 32px;
+}
+
+.container-form {
+  background-color: #d9d9d9;
+  height: 660px;
+}
+
+h1.title-shipping {
+  font-family: var(--poppins);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  background-color: #000;
+  padding: 10px; /* Added padding for better spacing */
+  margin-bottom: 20px; /* Added margin for better spacing */
+}
+
+.col {
+  display: flex;
+  flex-direction: column; /* Display form items as a column */
+  background-color: #fbf6f6;
+  height: 500px;
+  width: 590px;
+  margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 27px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row; /* Display label and input as a row */
+  align-items: center; /* Vertically align label and input */
+  margin-left: 40px;
+  margin-right: 141px;
+  margin-top: 20px;
+  font-family: var(--poppins);
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+label {
+  flex: 1; /* Allow label to grow and take space */
+}
+
+input[type="text"] {
+  flex: 2;
+  height: 41px;
+  border: solid #d9d9d9 1px;
+  border-radius: 3px;
+  font-size: 16px;
+  margin-left: 5px;
+  padding-left: 10px; /* Add left padding to the input */
+}
+
+/* Style the placeholder text */
+input[type="text"]::placeholder {
+  padding-left: 10px; /* Add left padding to the placeholder text */
+}
+
+label.check-ship {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px; /* Add padding for better appearance */
+}
+
+label.check-ship input[type="checkbox"] {
+  margin-right: 20px;
+}
+
+.background-check {
+  background-color: #c3c3c3; /* Set the background color */
+  width: 480px; /* Set the width to 400px */
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.btn-submit {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 19px;
+}
+
+.btn {
+  background-color: #f86f03;
+  padding: 10px 0;
+  color: white;
+  margin: 10px 0;
+  border: none;
+  width: 231px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+/* -------------SUMMARY ------------------ */
+/* Styles for summary */
+.container-summary {
+  background-color: #fff;
+  width: 629px;
+  margin-left: 32px;
+  margin-top: 62px;
+}
+
+h1.title-summary {
+  font-family: var(--poppins);
+  font-size: 36px;
+  font-weight: 700;
+  text-align: left;
+  color: #000;
+  background-color: #d9d9d9;
+  padding: 10px 20px;
+}
+
+.title-flex {
+  display: flex;
+  margin-top: -20px;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.p1-summary {
+  color: #000;
+  font-weight: bold;
+}
+
+.sub-title-summary {
+  font-weight: 500;
+}
+.main-title-summary {
+  font-weight: bold;
+}
+.main-title-summary1 {
+  font-weight: bold;
+  color: #f86f03;
+}
+
+.p2-summary {
+  color: #f86f03;
+  font-weight: bold;
+}
+
+/* ---------CART---------- */
+/* Styles for cart */
+.container-cart {
+  background-color: #fff;
+  width: 629px;
+  margin-left: 32px;
+  margin-top: 20px; /* Adjust the margin-top property to push it below the summary */
+}
+
+h1.title-cart {
+  font-family: var(--poppins);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  padding: 10px 20px;
+  text-align: left;
+  color: #000;
+  background-color: #d9d9d9;
+}
+
+.text-cart {
+  font-weight: bold;
+  margin-left: 20px;
+  /* margin-top: -20px; */
+}
+
+.p-cart {
+  margin-top: -8px;
+}
+
+.flex-cart {
+  display: flex;
+}
+
+/* -----------------DELIVERY------------------- */
+/* Styles for cart */
+.container-delivery {
+  width: 629px;
+  margin-left: 32px;
+  margin-top: 20px; /* Adjust the margin-top property to push it below the summary */
+  border: #c3c3c3 solid 1px;
+}
+
+.text-delivery {
+  margin: 20px;
+}
+
+h1.title-delivery {
+  font-family: var(--poppins);
+  font-size: 36px;
+  font-weight: 700;
+  text-align: left;
+  color: #000;
+}

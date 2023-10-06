@@ -1,0 +1,28 @@
+{
+    "features": [
+        {
+            "id": 1,
+            "title": "Product Features",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut bibendum neque. Sed bibendum eu odio vel volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus at nisi euismod, auctor libero sit amet, facilisis metus. Nulla facilisi. Fusce volutpat, eros in cursus egestas, tortor ipsum ullamcorper turpis, id pellentesque tellus tortor ac lectus. Vivamus blandit lacus eu metus suscipit fringilla. Suspendisse potenti. Cras non mauris sapien. Praesent non mauris vel purus convallis dictum",
+            "img": "../../images/features/product.png"
+        },
+        {
+            "id": 2,
+            "title": "Limited Product",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut bibendum neque. Sed bibendum eu odio vel volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus at nisi euismod, auctor libero sit amet, facilisis metus. Nulla facilisi. Fusce volutpat, eros in cursus egestas, tortor ipsum ullamcorper turpis, id pellentesque tellus tortor ac lectus. Vivamus blandit lacus eu metus suscipit fringilla. Suspendisse potenti. Cras non mauris sapien. Praesent non mauris vel purus convallis dictum",
+            "img": "../../images/features/limited.png"
+        }
+    ],
+    "services": [
+        {
+            "id": 1,
+            "title": "Penerimaan Syarat dan Ketentuan",
+            "desc": "Dengan mengakses atau menggunakan situs web ini, Anda setuju untuk tunduk pada Syarat dan Ketentuan ini. Jika anda tidak setuju dengan salah satu ketentuan ini, anda tidak boleh menggunakan situs web ini."
+        },
+        {
+            "id": 2,
+            "title": "Perubahan Syarat dan Ketentuan",
+            "desc": "Kami berhak untuk mengubah atau memodifikasi Syarat dan Ketentuan ini setiap saat tanpa pemberitahuan sebelumnya. Setiap perubahan akan efektif segera setelah di posting di situs web ini. Anda setuju untuk terus memantau situs web ini untuk terus memantau situs web ini untuk perubahan apapun. Penggunaan terus menerus anda atas situs web ini setelah perubahan tersebut merupakan persetujuan anda terhadap perubahan tersebut."
+        }
+    ]
+}

@@ -1,0 +1,572 @@
+/* Set the default font family for the entire document */
+:root {
+  --poppins: "Poppins", sans-serif;
+  --backslash: "Backslash", sans-serif;
+}
+
+body {
+  font-family: var(--poppins);
+}
+
+/* Navbar Styles */
+.navbar {
+  max-width: 1440px;
+  margin: 36px 117px 0 117px; /* Add a margin of 20px on both sides */
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Distribute content to both ends */
+}
+
+/* Logo Styles */
+.logo img {
+  max-width: 173px; /* Set the maximum width to 36px */
+  max-height: 48px; /* Set the maximum height to 36px */
+}
+
+.right {
+  display: flex;
+  align-items: center; /* Center align the items in the right section */
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+/* Center align the navigation links (ul li) */
+.nav-links {
+  justify-content: center;
+}
+
+.nav-links li {
+  margin-left: 20px; /* Adjust spacing between links */
+  margin-right: 0px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* Search Bar Styles */
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.search-input {
+  width: 322px;
+  height: 41px;
+  border: 1px solid #fff;
+  border-radius: 22px;
+  padding-left: 40px; /* Add padding to the left to make space for the image */
+  background-image: url("../images/home/search.svg"); /* Set the image as background */
+  background-position: 10px center; /* Adjust the position of the background image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a shadow above the search bar */
+}
+.search-input::placeholder {
+  color: #a49090;
+}
+
+/* User Actions Styles (Login and Signup Links) */
+.person {
+  margin-right: 10px;
+  width: 37px; /* Set the width to 37px with !important */
+  height: 35px; /* Set the height to 35px with !important */
+}
+
+.signin {
+  font-weight: 400;
+}
+.signup {
+  background-color: #000;
+  color: #fff !important; /* Set text color to white with !important */
+  font-weight: 400;
+  width: 75px; /* Add padding to adjust the size */
+  height: 27px;
+  border-radius: 20px; /* Apply rounded corners */
+  text-align: center; /* Center-align the text */
+  line-height: 27px; /* Vertically center the text */
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+}
+
+.user-actions a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 10px;
+}
+
+/* Cart Styles */
+.cart {
+  position: relative;
+}
+
+.cart img {
+  width: 30px;
+  height: auto;
+  margin-right: 5px;
+}
+
+/* ---------------------- MAIN ---------------------- */
+/* Style the overlay div within the main element */
+.main {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.main-overlay {
+  position: relative; /* Change to relative positioning */
+  height: 468px;
+  width: 1126px;
+  background-image: url("../images/home/hero.png");
+  border-radius: 30px;
+  background-size: cover;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the text within the overlay */
+.main-overlay::before {
+  content: "";
+  position: absolute;
+  border-radius: 30px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Apply gradient background with color stops */
+  background: linear-gradient(
+    rgba(211, 206, 206, 0.7) 0%,
+    rgba(211, 206, 206, 0.3) 50%,
+    rgba(211, 206, 206, 0) 100%
+  );
+  z-index: -1;
+}
+
+/* Style the text elements */
+.main-overlay h3,
+.main-overlay h1,
+.main-overlay button {
+  color: #fff;
+  z-index: 1; /* Place the text above the background */
+  text-align: center;
+  position: relative; /* Change to relative positioning */
+}
+
+.main-overlay h3 {
+  font-size: 24px;
+  font-family: var(--backslash);
+}
+
+.main-overlay h1 {
+  font-size: 40px;
+  font-weight: bold;
+  word-spacing: 10px; /* Add spacing between words */
+  letter-spacing: 7px; /* Add spacing between characters (letters) */
+  font-family: var(--backslash);
+}
+
+.main-overlay button {
+  margin-top: 30px;
+  background-color: #afa5a5c2;
+  color: #fff;
+  height: 45px;
+  width: 239px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: var(--poppins);
+}
+
+/* Navbar Styles */
+.navbar {
+  max-width: 1440px;
+  margin: 36px 117px 0 117px; /* Add a margin of 20px on both sides */
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Distribute content to both ends */
+}
+
+/* Logo Styles */
+.logo img {
+  max-width: 173px; /* Set the maximum width to 36px */
+  max-height: 48px; /* Set the maximum height to 36px */
+}
+
+.right {
+  display: flex;
+  align-items: center; /* Center align the items in the right section */
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+/* Center align the navigation links (ul li) */
+.nav-links {
+  justify-content: center;
+}
+
+.nav-links li {
+  margin-left: 20px; /* Adjust spacing between links */
+  margin-right: 0px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* Search Bar Styles */
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.search-input {
+  width: 322px;
+  height: 41px;
+  border: 1px solid #fff;
+  border-radius: 22px;
+  padding-left: 40px; /* Add padding to the left to make space for the image */
+  background-image: url("../images/home/search.svg"); /* Set the image as background */
+  background-position: 10px center; /* Adjust the position of the background image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a shadow above the search bar */
+}
+.search-input::placeholder {
+  color: #a49090;
+}
+
+/* User Actions Styles (Login and Signup Links) */
+.person {
+  margin-right: 10px;
+  width: 37px; /* Set the width to 37px with !important */
+  height: 35px; /* Set the height to 35px with !important */
+}
+
+.signin {
+  font-weight: 400;
+}
+.signup {
+  background-color: #000;
+  color: #fff !important; /* Set text color to white with !important */
+  font-weight: 400;
+  width: 75px; /* Add padding to adjust the size */
+  height: 27px;
+  border-radius: 20px; /* Apply rounded corners */
+  text-align: center; /* Center-align the text */
+  line-height: 27px; /* Vertically center the text */
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+}
+
+.user-actions a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 10px;
+}
+
+/* Cart Styles */
+.cart {
+  position: relative;
+}
+
+.cart img {
+  width: 30px;
+  height: auto;
+  margin-right: 5px;
+}
+
+/* ---------------------- MAIN HOME ---------------------- */
+/* Style the overlay div within the main element */
+
+.main {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.main-overlay {
+  position: relative; /* Change to relative positioning */
+  height: 468px;
+  width: 1126px;
+  background-image: url("../images/home/hero.png");
+  border-radius: 30px;
+  background-size: cover;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the text within the overlay */
+.main-overlay::before {
+  content: "";
+  position: absolute;
+  border-radius: 30px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* Apply gradient background with color stops */
+  background: linear-gradient(
+    rgba(211, 206, 206, 0.7) 0%,
+    rgba(211, 206, 206, 0.3) 50%,
+    rgba(211, 206, 206, 0) 100%
+  );
+  z-index: -1;
+}
+
+/* Style the text elements */
+.main-overlay h3,
+.main-overlay h1,
+.main-overlay button {
+  color: #fff;
+  z-index: 1; /* Place the text above the background */
+  text-align: center;
+  margin: 10px;
+  position: relative; /* Change to relative positioning */
+}
+
+.main-overlay h3 {
+  font-size: 24px;
+}
+
+.main-overlay h1 {
+  font-size: 40px;
+  word-spacing: 10px; /* Add spacing between words */
+  letter-spacing: 7px; /* Add spacing between characters (letters) */
+}
+
+.main-overlay button {
+  margin-top: 30px;
+  background-color: #afa5a5c2;
+  color: #fff;
+  height: 45px;
+  width: 239px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* ---------------------- SECTION HOME ---------------------- */
+.section-home {
+  margin-top: 20px;
+  margin-left: 156px;
+  margin-right: 60px;
+  display: flex; /* Add a flex layout to the section */
+  justify-content: space-between; /* Space elements evenly */
+}
+
+.title-item {
+  font-size: 20px;
+}
+
+.list-category {
+  list-style: none; /* Remove default list styles */
+  padding: 0;
+  background-color: #eeeeee; /* Background color for the list */
+  border-radius: 7px; /* Apply border radius */
+  overflow: auto; /* Add scroll if the content overflows */
+}
+
+.list-category li {
+  display: flex;
+  justify-content: space-between; /* Distribute space evenly between items */
+  align-items: center;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.list-category input[type="checkbox"] {
+  margin-right: 10px; /* Add space between checkbox and label */
+  order: 2;
+}
+
+.list-category label {
+  order: 1; /* Set the order to 1 to move the label to the left */
+}
+/* Remove overflow for the specific ul within the section */
+section .list-category {
+  overflow: hidden;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: -10px;
+}
+
+/* Style the h5 element with the "Clear" text */
+.list-category h5 {
+  color: red;
+}
+
+span.plus {
+  margin-right: 10px;
+  background-color: #000;
+  color: #fff;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 2px;
+}
+
+/* Update the styles for the product-items-container */
+.product-items-container {
+  display: flex; /* Use flexbox to arrange items horizontally */
+  justify-content: space-between; /* Add space between items */
+  margin-top: 20px;
+}
+
+/* Style each product item */
+.product-item {
+  flex: 1; /* Allow each item to grow and take equal width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px; /* Add spacing between rows of items */
+  max-width: 30%; /* Set a maximum width for each item */
+  position: relative; /* Enable relative positioning for price overlay */
+}
+
+/* Style the product image container */
+.product-image {
+  position: relative; /* Enable relative positioning */
+  max-width: 100%; /* Ensure images scale proportionally within their containers */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px; /* Add spacing between image and title */
+  overflow: hidden; /* Hide overflowing gradient background */
+}
+
+/* Add the gradient background to the product image container */
+.product-image::before {
+  content: ""; /* Create a pseudo-element for the background */
+  position: absolute; /* Enable absolute positioning */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    1.89deg,
+    #494848 -19.34%,
+    rgba(217, 217, 217, 0) 80.51%
+  );
+  z-index: 1; /* Place the gradient above the image */
+  border-radius: 13px;
+}
+
+/* Style the title and price */
+.product-item h4 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  z-index: 2; /* Place the title and price above the gradient */
+}
+
+.product-item p {
+  font-size: 24px; /* Set the font size to 24px for the price */
+  color: #494848; /* Set the text color to white */
+  font-weight: bold;
+  padding: 5px 10px; /* Add padding to the price text */
+  position: absolute; /* Enable absolute positioning */
+  bottom: 50px; /* Position slightly higher (adjust as needed) */
+  left: 0; /* Position at the left edge of the product item */
+  right: 0; /* Position at the right edge of the product item */
+  z-index: 2; /* Place the price above the gradient */
+}
+
+.button-product {
+  background-color: #a49090;
+  border: none;
+  height: 25px;
+  width: 141px;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 11px;
+}
+.button-product:hover {
+  cursor: pointer;
+}
+/* Style the dropdown container */
+.dropdown {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Style the dropdown button */
+.dropdown-button {
+  background-color: #000;
+  border: none;
+  height: 31px;
+  width: 147px;
+  margin-top: 5px;
+  border-radius: 22px;
+  font-family: var(--poppins);
+  font-weight: 275;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  position: relative; /* Create a relative positioning context */
+}
+/* Style the drop icon to rotate */
+.drop {
+  display: inline-block; /* Make it an inline-block element */
+  font-size: 20px; /* Set the size to 20px */
+  transform: rotate(90deg); /* Rotate the icon 90 degrees */
+  transition: transform 0.3s; /* Add a transition for smooth rotation */
+}
+
+/* Hover effect to make the icon rotate back to the right */
+.dropdown-button:hover .drop {
+  transform: rotate(0deg);
+}
