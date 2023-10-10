@@ -1,0 +1,70 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "name": "Blondie Pink Small Leather Bag",
+        "brand": "X",
+        "price": 165,
+        "imageSrc": "leather-bag.jpg",
+        "rating": 4.8,
+        "description": "Leather bag with a stylish design",
+        "reviews": 80,
+        "sizes": 30,
+        "product_type": "Tas",
+        "quantity": 15
+      },
+      {
+        "id": 2,
+        "name": "Beige Leather Bag Isolated",
+        "brand": "Y",
+        "price": 125,
+        "imageSrc": "leather-bag.jpg",
+        "rating": 4.9,
+        "description": "Multifunctional leather bag with lots of pockets",
+        "reviews": 66,
+        "sizes": 25,
+        "product_type": "Tas",
+        "quantity": 20
+      },
+      {
+        "id": 3,
+        "name": "Handbag Women Clutch Gray",
+        "brand": "Z",
+        "price": 150,
+        "imageSrc": "handbag.jpg",
+        "rating": 5,
+        "description": "Handbag with a comfortable shape",
+        "reviews": 73,
+        "sizes": 20,
+        "product_type": "Tas",
+        "quantity": 35
+      },
+      {
+        "id": 4,
+        "name": "Shoulderbag",
+        "brand": "A",
+        "price": 170000,
+        "imageSrc": "shoulder-bag.jpg",
+        "rating": 5,
+        "description": "Latest design with pastel colors for shoulder bags",
+        "reviews": 100,
+        "sizes": 32,
+        "product_type": "Tas",
+        "quantity": 50
+      },
+      {
+        "id": 5,
+        "name": "Handbag",
+        "brand": "B",
+        "price": 200000,
+        "imageSrc": "handbag.jpg",
+        "rating": 4.9,
+        "description": "The newest soft color for our first design",
+        "reviews": 92,
+        "sizes": 40,
+        "product_type": "Tas",
+        "quantity": 5
+      }
+    ]
+  }
+  
