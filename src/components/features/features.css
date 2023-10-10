@@ -1,153 +1,153 @@
 /* Set the default font family for the entire document */
 :root {
-    --poppins: "Poppins", sans-serif;
-    --backslash: "Backslash", sans-serif;
-  }
+  --poppins: "Poppins", sans-serif;
+  --backslash: "Backslash", sans-serif;
+}
 
-  body {
-    font-family: var(--poppins);
-  }
-  
-  /* Navbar Styles */
-  .navbar {
-    max-width: 1440px;
-    margin: 36px 117px 0 117px; /* Add a margin of 20px on both sides */
-  }
-  
-  .container {
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* Distribute content to both ends */
-  }
-  
-  /* Logo Styles */
-  .logo img {
-    max-width: 173px; /* Set the maximum width to 36px */
-    max-height: 48px; /* Set the maximum height to 36px */
-  }
-  
-  .right {
-    display: flex;
-    align-items: center; /* Center align the items in the right section */
-  }
-  
-  .nav-links {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
-    margin-left: 20px;
-  }
-  
-  /* Center align the navigation links (ul li) */
-  .nav-links {
-    justify-content: center;
-  }
-  
-  .nav-links li {
-    margin-left: 20px; /* Adjust spacing between links */
-    margin-right: 0px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 21px;
-  }
-  
-  /* Search Bar Styles */
-  .search-bar {
-    display: flex;
-    align-items: center;
-    margin-right: 15px;
-  }
-  
-  .search-input {
-    width: 322px;
-    height: 41px;
-    border: 1px solid #fff;
-    border-radius: 22px;
-    padding-left: 40px; /* Add padding to the left to make space for the image */
-    background-image: url("../images/home/search.svg"); /* Set the image as background */
-    background-position: 10px center; /* Adjust the position of the background image */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a shadow above the search bar */
-  }
-  .search-input::placeholder {
-    color: #a49090;
-  }
-  
-  /* User Actions Styles (Login and Signup Links) */
-  .person {
-    margin-right: 10px;
-    width: 37px; /* Set the width to 37px with !important */
-    height: 35px; /* Set the height to 35px with !important */
-  }
-  
-  .signin {
-    font-weight: 400;
-  }
-  .signup {
-    background-color: #000;
-    color: #fff !important; /* Set text color to white with !important */
-    font-weight: 400;
-    width: 75px; /* Add padding to adjust the size */
-    height: 27px;
-    border-radius: 20px; /* Apply rounded corners */
-    text-align: center; /* Center-align the text */
-    line-height: 27px; /* Vertically center the text */
-  }
-  
-  .user-actions {
-    display: flex;
-    align-items: center;
-  }
-  
-  .user-actions a {
-    text-decoration: none;
-    color: #000;
-    margin-right: 10px;
-  }
-  
-  /* Cart Styles */
-  .cart {
-    position: relative;
-  }
-  
-  .cart img {
-    width: 30px;
-    height: auto;
-    margin-right: 5px;
-  }
+body {
+  font-family: var(--poppins);
+}
 
-  .features-container {
-    margin: 50px 124px;
-  }
+/* Navbar Styles */
+.navbar {
+  max-width: 1440px;
+  margin: 36px 117px 0 117px; /* Add a margin of 20px on both sides */
+}
 
-  .features-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 64px;
-  }
+.container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Distribute content to both ends */
+}
 
-  .features-box:nth-child(2) {
-    flex-direction: row-reverse;
-  }  
+/* Logo Styles */
+.logo img {
+  max-width: 173px; /* Set the maximum width to 36px */
+  max-height: 48px; /* Set the maximum height to 36px */
+}
 
-  .features-image {
-    width: 464px;
-  }
+.right {
+  display: flex;
+  align-items: center; /* Center align the items in the right section */
+}
 
-  .features-title {
-    color: #351D74;
-  }
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 20px;
+}
 
-  .features-desc {
-    font-size: 20px;
-    text-align: justify;
-  }
+/* Center align the navigation links (ul li) */
+.nav-links {
+  justify-content: center;
+}
+
+.nav-links li {
+  margin-left: 20px; /* Adjust spacing between links */
+  margin-right: 0px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* Search Bar Styles */
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.search-input {
+  width: 322px;
+  height: 41px;
+  border: 1px solid #fff;
+  border-radius: 22px;
+  padding-left: 40px; /* Add padding to the left to make space for the image */
+  background-image: url("../images/home/search.svg"); /* Set the image as background */
+  background-position: 10px center; /* Adjust the position of the background image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a shadow above the search bar */
+}
+.search-input::placeholder {
+  color: #a49090;
+}
+
+/* User Actions Styles (Login and Signup Links) */
+.person {
+  margin-right: 10px;
+  width: 37px; /* Set the width to 37px with !important */
+  height: 35px; /* Set the height to 35px with !important */
+}
+
+.signin {
+  font-weight: 400;
+}
+.signup {
+  background-color: #000;
+  color: #fff !important; /* Set text color to white with !important */
+  font-weight: 400;
+  width: 75px; /* Add padding to adjust the size */
+  height: 27px;
+  border-radius: 20px; /* Apply rounded corners */
+  text-align: center; /* Center-align the text */
+  line-height: 27px; /* Vertically center the text */
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+}
+
+.user-actions a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 10px;
+}
+
+/* Cart Styles */
+.cart {
+  position: relative;
+}
+
+.cart img {
+  width: 30px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.features-container {
+  margin: 50px 124px;
+}
+
+.features-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+}
+
+.features-box:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+.features-image {
+  width: 464px;
+}
+
+.features-title {
+  color: #351d74;
+}
+
+.features-desc {
+  font-size: 20px;
+  text-align: justify;
+}

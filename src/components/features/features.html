@@ -1,56 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Feature - My E-commerce Store</title>
-    <link rel="stylesheet" href="features.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playball&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <!-- <link rel="stylesheet" href="features.css" /> -->
+    <link rel="stylesheet" href="../../style/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playball&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <nav class="navbar">
-            <div class="container">
-                <div class="logo">
-                    <a href="../../../index.html">
-                        <img src="../../images/home/logo.svg" alt="logo" />
-                    </a>
-                </div>
-                <div class="right">
-                    <div class="nav">
-                        <ul class="nav-links">
-                            <li><a href="../../../index.html">Shop</a></li>
-                            <li><a href="../features/features.html">Features</a></li>
-                            <li>
-                                <a href="../shipping/shipping.html">Shipping</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- Add this code where you want to place the login and signup links -->
-                    <div class="user-actions">
-                        <img class="person" src="../../images/home/person.svg" alt="person" />
-                        <a class="signin" href="#"">Log In</a>
-                        <a class="signup" href="#">Sign Up</a>
-                    </div>
-                    <!-- Add this code where you want to place the cart link -->
-                    <div class="cart">
-                        <a href="#">
-                            <img src="../../images/home/cart.svg" alt="Cart" />
-                        </a>
-                    </div>
-                </div>
+      <nav class="navbar">
+        <div class="container">
+          <div class="logo">
+            <a href="../../../index.html">
+              <img src="../../images/home/logo.svg" alt="logo" />
+            </a>
+          </div>
+          <div class="right">
+            <div class="nav">
+              <ul class="nav-links">
+                <li><a href="../../../index.html">Shop</a></li>
+                <li><a href="../features/features.html">Features</a></li>
+                <li>
+                  <a href="../shipping/shipping.html">Shipping</a>
+                </li>
+              </ul>
             </div>
-        </nav>
-    </header>
-    <main>
-        <div class="features-container">
-            <div id="featuresBox"></div>
+            <!-- Add this code where you want to place the login and signup links -->
+            <div class="user-actions">
+              <img
+                class="person"
+                src="../../images/home/person.svg"
+                alt="person"
+              />
+              <a class="signin" href="#">Log In</a>
+              <a class="signup" href="#">Sign Up</a>
+            </div>
+            <!-- Add this code where you want to place the cart link -->
+            <div class="cart">
+              <a href="#">
+                <img src="../../images/home/cart.svg" alt="Cart" />
+              </a>
+            </div>
+          </div>
         </div>
-    </main>
+      </nav>
+    </header>
+    <!-- <main>
+      <div class="product-items-container">
+        <div class="product">
+          <div class="dropdown">
+            <button class="dropdown-button">
+              Sort by: <span>Newest</span> <span class="drop">></span>
+            </button>
+          </div>
+          <div class="product-items-container">
+            <div id="featuresBox"></div>
+          </div>
+        </div>
+      </div>
+    </main> -->
+    <section>
+      <div class="section-home">
+        <div class="category-left">
+          <h1 class="title-item">Categories Item</h1>
+          <ul class="list-category">
+            <div class="filter">
+              <h4>Filter by:</h4>
+              <h5>Clear</h5>
+            </div>
+            <li>
+              <input type="checkbox" id="handbags" /><label for="handbags"
+                >Hanbags</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="women" /><label for="women"
+                >Women</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" id="men" /><label for="men">Men</label>
+            </li>
+            <li>
+              <input type="checkbox" id="children" /><label for="children"
+                >Children</label
+              >
+            </li>
+            <li>Recomendation <span class="plus">+</span></li>
+            <li>
+              Hot Trends
+              <span class="plus">+</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Right content -->
+        <div class="product-items-container">
+          <div class="product">
+            <div class="dropdown">
+              <button class="dropdown-button">
+                Sort by: <span>Newest</span> <span class="drop">></span>
+              </button>
+            </div>
+            <div class="product-items-container" id="featuresBox"></div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="../../script/scripts.js"></script>
     <script src="./features.js"></script>
-
-</body>
+  </body>
 </html>

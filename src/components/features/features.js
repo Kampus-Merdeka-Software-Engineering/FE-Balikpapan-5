@@ -1,35 +1,40 @@
-const featuresBox = document.getElementById('featuresBox');
+
 
 const fetchFeatures = async () => {
     try {
-        const response = await fetch("http://localhost:3000/features", {
-            method: "GET",
-        });
+        const response = await fetch("https://be-balikpapan-5-production.up.railway.app/product");
         const data = await response.json();
-        return data;
+        return data.data.slice(0, 3);
     } catch (error) {
         console.log(error);
     }
 };
 
-
-const useFeatures = async () => {
-    const data = await fetchFeatures();
-    featuresBox.innerHTML = `
-        ${data.map((feature) => (`
-            <div class="features-box">
-                <img class="features-image" src="${feature.img}" alt="${feature.title}">
-                <div>
-                    <h1 class="features-title">${feature.title}</h1>
-                    <p class="features-desc">${feature.desc}</p>
+const fetchAndDisplayFeatures = async () => {
+    try {
+        const featuresBox = document.getElementById('featuresBox');
+        const data = await fetchFeatures();
+        const htmlContent = data.map(feature => `
+                <div class="product-item">
+                    <div class="product-image>
+                        <img src="${feature.imageSrc}" alt="${feature.name}">
+                    </div>
+                    <p>${feature.price}</p>
+                    <h4>${feature.name}</h4>
+                    <button class="button-product">Add To Shopping bag</button>
                 </div>
-            </div>
-        `)).join('')}
-    `;
-}
+            `).join('');
 
+        featuresBox.innerHTML = htmlContent;
+    } catch (error) {
+        console.log(error);
+    }
+};
 
+// Call the function to fetch and display features
+
+// Call the function to fetch and display features
 window.addEventListener("load", () => {
-    useFeatures()
+    fetchAndDisplayFeatures();
 });
 
